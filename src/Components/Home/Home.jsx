@@ -1,3 +1,4 @@
+import Banner from '../Banner/Banner'
 import './Home.css'
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             </svg>
           </div>
         {/* banner */}
+        <Banner/>
      </div>
     </>
   )
